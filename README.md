@@ -1,29 +1,10 @@
 ## Getting Started
-Install necessary dependencies:
-
-```
-yarn add better-sqlite3 qrcode.react react-qr-reader
-```
-
-Add a script to your `package.json` to run the database setup:
-```
-{
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "db:setup": "node db/setup.js"
-  }
-}
-```
-Run the database setup:
-```
-yarn db:setup
-```
-
-run the development server:
+1.run the development server:
 
 ```bash
 yarn dev
 ```
+
+2.Open your browser and navigate to `http://localhost:3000/register` to test the registration process.
+3.After registering, you'll be redirected to the QR code page.
+4.To test the admin scanning, go to `http://localhost:3000/admin/scan` and use the QR code you received.
