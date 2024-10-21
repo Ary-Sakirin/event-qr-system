@@ -6,19 +6,24 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:setup": "node db/setup.js"
   },
   "dependencies": {
+    "better-sqlite3": "^11.4.0",
+    "lucide-react": "^0.453.0",
+    "next": "14.2.15",
+    "qrcode.react": "^4.0.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.15"
+    "react-qr-reader": "^3.0.0-beta-1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
